@@ -15,9 +15,9 @@ def ganador(opcion_j1, opcion_j2):
     if (opcion_j1 == "Piedra" and opcion_j2 == "Tijeras") or \
         (opcion_j1 == "Tijeras" and opcion_j2 == "Papel") or \
         (opcion_j1 == "Papel" and opcion_j2 == "Piedra"):
-        return "Gana Jugador 1"
+        return "Ganaste contra la máquina!!"
     elif opcion_j1 == opcion_j2:
-        return "Empatan"
+        return "Empataste contra la máquina!"
     else:
         print(opcion_j1, "vs", opcion_j2)
         return "Perdiste!!"
