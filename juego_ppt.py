@@ -15,14 +15,12 @@ def ganador(opcion_j1, opcion_j2):
     if (opcion_j1 == "Piedra" and opcion_j2 == "Tijeras") or \
         (opcion_j1 == "Tijeras" and opcion_j2 == "Papel") or \
         (opcion_j1 == "Papel" and opcion_j2 == "Piedra"):
-        print(opcion_j1, "vs", opcion_j2)
         return "Gana Jugador 1"
     elif opcion_j1 == opcion_j2:
-        print(opcion_j1, "vs", opcion_j2)
         return "Empatan"
     else:
         print(opcion_j1, "vs", opcion_j2)
-        return "Gana Jugador 2"
+        return "Perdiste!!"
     
 # Estructura de la Aplicación:
 # Agregamos un título:
